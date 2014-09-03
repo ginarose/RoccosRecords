@@ -9,7 +9,7 @@
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
  
 	<meta charset="UTF-8">
-	<title>Project 1</title>
+	<title>Rocco's Records</title>
 </head>
 
 <!-- HOMEPAGE -->
