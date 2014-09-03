@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+<link rel="stylesheet" href="assets/css/styling.css" />
  
 	<meta charset="UTF-8">
 	<title>Rocco's Records</title>
@@ -16,7 +17,7 @@
 <div data-role="page" id="home">
 
 	<div data-role="header">
-		<img src="assets/record.jpg">
+		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
 		<h1>Rocco's Records</h1>
 	</div><!-- /header -->
 
@@ -37,7 +38,7 @@
 <div data-role="page" id="about">
 
 	<div data-role="header">
-		<img src="assets/record.jpg">
+		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
 		<h1>About Rocco's</h1>
 	</div><!-- /header -->
 
