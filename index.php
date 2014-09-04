@@ -8,6 +8,10 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 <link rel="stylesheet" href="assets/css/styling.css" />
+
+<script src="swipebox/lib/jquery-2.0.3.js"></script>
+<script src="swipebox/src/js/jquery.swipebox.js"></script>
+<link rel="stylesheet" href="swipebox/src/css/swipebox.css">
  
 	<meta charset="UTF-8">
 	<title>Rocco's Records</title>
@@ -96,7 +100,15 @@
 
 	<div data-role="content">	
 		<h2>Ever wonder what we look like?</h2>
-		<input type="text" data-role="date" data-inline="true">
+		<p>
+			<a href="assets/gallery/1.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/1.jpg" alt="image"></a>
+			<a href="assets/gallery/2.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/2.jpg" alt="image"></a>
+			<a href="assets/gallery/3.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/3.jpg" alt="image"></a>
+			<a href="assets/gallery/4.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/4.jpg" alt="image"></a>
+			<a href="assets/gallery/5.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/5.jpg" alt="image"></a>
+			<a href="assets/gallery/6.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/6.jpg" alt="image"></a>
+			<a href="assets/gallery/7.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/7.jpg" alt="image"></a>
+		</p>
 	</div><!-- /content -->
 
 	<div data-role="footer">
@@ -105,6 +117,13 @@
 </div><!-- /page -->
 
 
-	
+<script type="text/javascript">
+;( function( $ ) {
+
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
+</script>
+
 </body>
 </html>
