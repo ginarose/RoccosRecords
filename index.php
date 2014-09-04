@@ -14,9 +14,9 @@
 </head>
 
 <!-- HOMEPAGE -->
-<div data-role="page" id="home">
+<div data-role="page" data-theme="a" id="home">
 
-	<div data-role="header">
+	<div data-role="header" role="banner">
 		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
 		<h1>Rocco's Records</h1>
 	</div><!-- /header -->
@@ -63,11 +63,40 @@
 	</div><!-- /navbar -->
 
 	<div data-role="content">	
+		<h2>More about Rocco's</h2>
 		<p>Rocco's was started in 2004 by our very own Rocco Romaine. A Florida native with a passion for music, Rocco wanted to keep the local scene alive and opened up Rocco's Records as a place for bands to play for the musically appreciative residents of Winter Park, FL.</p>	
 		<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
 		<p></p>
 
 		<p><a href="#home">Back Home</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>&copy; 2004 - 2014, Rocco Romaine. All Rights Reserved.</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- Gallery page -->
+<div data-role="page" id="gallery">
+
+	<div data-role="header">
+		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
+		<h1>Take a peek</h1>
+	</div><!-- /header -->
+
+	<div data-role="navbar">
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#gallery" class="ui-btn-active">Gallery</a></li>
+		<li><a href="#events">Events</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	</div><!-- /navbar -->
+
+	<div data-role="content">	
+		<h2>Ever wonder what we look like?</h2>
+		<input type="text" data-role="date" data-inline="true">
 	</div><!-- /content -->
 
 	<div data-role="footer">

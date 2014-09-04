@@ -1,5 +1,11 @@
 .header-image {
-    max-width: 100%;
-    height: auto;
-    width: auto; /* ie8 */
+    max-width: 296px;
+	height: auto;
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+
+h2{
+	color: #68a677; 
 }
