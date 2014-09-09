@@ -7,11 +7,11 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
-<link rel="stylesheet" href="assets/css/styling.css" />
 <script src="assets/script.js"></script>
 <script src="swipebox/lib/jquery-2.0.3.js"></script>
 <script src="swipebox/src/js/jquery.swipebox.js"></script>
 <link rel="stylesheet" href="swipebox/src/css/swipebox.css">
+<link rel="stylesheet" href="assets/css/styling.css" />
  
 	<meta charset="UTF-8">
 	<title>Rocco's Records</title>
@@ -22,7 +22,6 @@
 
 	<div data-role="header" role="banner">
 		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
-		<h1>Rocco's Records</h1>
 	</div><!-- /header -->
 
 		<div data-role="navbar" data-iconpos="top">
@@ -46,6 +45,12 @@
 		    	<p>Rocco's was started in 2004 by our very own Rocco Romaine. A Florida native with a passion for music, Rocco wanted to keep the local scene alive and opened up Rocco's Records as a place for bands to play for the musically appreciative residents of Winter Park, FL.</p>	
 				<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
 		</div>
+
+		<div data-role="collapsible" data-collapsed="false">
+		    <h4>Contact Us</h4>
+		    	<p><a href="tel:555 555 5555" class="ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">Call Us! 555-5555</a></p>	
+				<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
+		</div>
 	</div><!-- /content -->
 
 	<div data-role="footer">
@@ -58,8 +63,8 @@
 <div data-role="page" id="gallery">
 
 	<div data-role="header">
-		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image">
-		<h1>Take a peek</h1>
+		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image subpage-header-image">
+		<h1 class="subpage-header">Take a peek</h1>
 	</div><!-- /header -->
 
 	<div data-role="navbar" data-iconpos="top">
@@ -72,14 +77,14 @@
 
 	<div data-role="content">	
 		<h2>Ever wonder what we look like?</h2>
-		<p>
-			<a href="assets/gallery/1.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/1.jpg" alt="image"></a>
-			<a href="assets/gallery/2.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/2.jpg" alt="image"></a>
-			<a href="assets/gallery/3.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/3.jpg" alt="image"></a>
-			<a href="assets/gallery/4.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/4.jpg" alt="image"></a>
-			<a href="assets/gallery/5.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/5.jpg" alt="image"></a>
-			<a href="assets/gallery/6.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/6.jpg" alt="image"></a>
-			<a href="assets/gallery/7.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/7.jpg" alt="image"></a>
+		<p style="text-align: center;">
+			<a href="assets/gallery/1.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/1.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/2.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/2.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/3.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/3.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/4.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/4.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/5.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/5.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/6.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/6.jpg" class="swipebox-image" alt="image"></a>
+			<a href="assets/gallery/7.jpg" class="swipebox" title="My Caption"><img src="assets/gallery/thumbs/7.jpg" class="swipebox-image" alt="image"></a>
 		</p>
 	</div><!-- /content -->
 
@@ -87,6 +92,38 @@
 		<h4>&copy; 2004 - 2014, Rocco Romaine. All Rights Reserved.</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
+
+
+
+<!-- Calendar page -->
+<div data-role="page" id="events">
+
+	<div data-role="header">
+		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image subpage-header-image">
+		<h1 class="subpage-header">What's on the agenda?</h1>
+	</div><!-- /header -->
+
+	<div data-role="navbar" data-iconpos="top">
+	<ul>
+		<li><a href="#home" data-icon="home" >Home</a></li>
+		<li><a href="#gallery" data-icon="grid" >Gallery</a></li>
+		<li><a href="#events" data-icon="calendar" class="ui-btn-active">Events</a></li>
+	</ul>
+	</div><!-- /navbar -->
+
+	<div data-role="content">	
+		<h2>Shows this month include...</h2>
+		<p style="text-align: center;">
+			CALENDAR HERE WAHOOOOO
+		</p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>&copy; 2004 - 2014, Rocco Romaine. All Rights Reserved.</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
 
 
 <script type="text/javascript">
