@@ -31,7 +31,7 @@
 		<ul>
 			<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
 			<li><a href="#gallery" data-icon="grid">Gallery</a></li>
-			<li><a href="#events" data-icon="calendar">Events</a></li>
+			<li><a href="#specials" data-icon="calendar">Specials</a></li>
 		</ul>
 		</div><!-- /navbar -->
 
@@ -47,9 +47,11 @@
 				<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
 		</div>
 
+
 		<div data-role="collapsible" data-collapsed="false">
 		    <h4>Contact Us</h4>
-		    	<p><a href="tel:555 555 5555" class="ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">Call Us! 555-5555</a></p>	
+		    	<p><a href="tel:555 555 5555" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">Call Us! 555-5555</a>
+		    		<a href="http://maps.google.com?q=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-grid-a ui-btn ui-icon-delete ui-btn-icon-left ui-icon-location">Visit Us!</a></p>	
 				<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
 		</div>
 	</div><!-- /content -->
@@ -72,7 +74,7 @@
 	<ul>
 		<li><a href="#home" data-icon="home" >Home</a></li>
 		<li><a href="#gallery" data-icon="grid" class="ui-btn-active">Gallery</a></li>
-		<li><a href="#events" data-icon="calendar">Events</a></li>
+		<li><a href="#specials" data-icon="calendar">Specials</a></li>
 	</ul>
 	</div><!-- /navbar -->
 
@@ -97,7 +99,7 @@
 
 
 <!-- Calendar page -->
-<div data-role="page" id="events">
+<div data-role="page" id="specials">
 
 	<div data-role="header">
 		<img src="assets/logo.png" alt="Rocco's Records logo" class="header-image subpage-header-image">
@@ -108,16 +110,20 @@
 	<ul>
 		<li><a href="#home" data-icon="home" >Home</a></li>
 		<li><a href="#gallery" data-icon="grid" >Gallery</a></li>
-		<li><a href="#events" data-icon="calendar" class="ui-btn-active">Events</a></li>
+		<li><a href="#specials" data-icon="calendar" class="ui-btn-active">Specials</a></li>
 	</ul>
 	</div><!-- /navbar -->
 
 	<div data-role="content">	
-		<h2>Weekly specials include...</h2>
+		    <div data-role="collapsible" data-collapsed="false">
+		    <h4 id="weekly-special-day">Today's Special</h4>
+		    <p id="weekly-special-text">This is where specials will display</p>
+		    </div>
 		<form>
 		<div class="ui-field-contain">
 		    <label for="select-weekly-special" style="display:none;">Select a day of the week</label>
 		    <select name="select-weekly-special" data-native-menu="false" id="select-weekly-special">
+		        <option value="none">Select a different day to view specials...</option>
 		        <option value="monday">Monday</option>
 		        <option value="tuesday">Tuesday</option>
 		        <option value="wednesday">Wednesday</option>
@@ -126,8 +132,7 @@
 		        <option value="saturday">Saturday</option>
 		        <option value="sunday">Sunday</option>
 		    </select>
-		    <br/>
-		    <p id="weekly-special-text">This is where specials will display</p>
+
 		</div>
 		</form>
 	</div><!-- /content -->

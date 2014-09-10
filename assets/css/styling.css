@@ -43,3 +43,8 @@ div.hasDatePicker{
 }
 
 #map-page, #map-canvas { width: 100%; height: 100%; padding: 0; }
+
+select{
+	display: block !important;
+	width: 100% !important;
+}
