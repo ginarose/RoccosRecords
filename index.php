@@ -15,11 +15,6 @@
 <link rel="stylesheet" href="swipebox/src/css/swipebox.css">
 <link rel="stylesheet" href="assets/css/styling.css" />
 
-<link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
-<script src="https://rawgithub.com/jquery/jquery-ui/1-10-stable/ui/jquery.ui.datepicker.js"></script>
-<script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script> 
-<script src="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.js"></script>
  
 	<meta charset="UTF-8">
 	<title>Rocco's Records</title>
@@ -118,11 +113,22 @@
 	</div><!-- /navbar -->
 
 	<div data-role="content">	
-		<h2>Shows this month include...</h2>
-		<p style="text-align: center;">
-			<input type="text" id="date-input" data-theme="a" data-inline="true" data-role="date">
-		</p>
-		<p id="date-artist">Artist will show</p>
+		<h2>Weekly specials include...</h2>
+		<form>
+		<div class="ui-field-contain">
+		    <label for="select-weekly-special" style="display:hidden;">Select a day of the week</label>
+		    <select name="select-weekly-special" data-native-menu="false" id="select-weekly-special">
+		        <option value="monday">Monday</option>
+		        <option value="tuesday">Tuesday</option>
+		        <option value="wednesday">Wednesday</option>
+		        <option value="thursday">Thursday</option>
+		        <option value="friday">Friday</option>
+		        <option value="saturday">Saturday</option>
+		        <option value="sunday">Sunday</option>
+		    </select>
+		    <p>This is where specials will display</p>
+		</div>
+		</form>
 	</div><!-- /content -->
 
 	<div data-role="footer">
