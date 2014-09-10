@@ -116,7 +116,7 @@
 		<h2>Weekly specials include...</h2>
 		<form>
 		<div class="ui-field-contain">
-		    <label for="select-weekly-special" style="display:hidden;">Select a day of the week</label>
+		    <label for="select-weekly-special" style="display:none;">Select a day of the week</label>
 		    <select name="select-weekly-special" data-native-menu="false" id="select-weekly-special">
 		        <option value="monday">Monday</option>
 		        <option value="tuesday">Tuesday</option>
@@ -126,6 +126,7 @@
 		        <option value="saturday">Saturday</option>
 		        <option value="sunday">Sunday</option>
 		    </select>
+		    <br/>
 		    <p>This is where specials will display</p>
 		</div>
 		</form>
