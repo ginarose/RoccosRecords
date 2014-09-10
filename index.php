@@ -127,7 +127,7 @@
 		        <option value="sunday">Sunday</option>
 		    </select>
 		    <br/>
-		    <p>This is where specials will display</p>
+		    <p id="weekly-special-text">This is where specials will display</p>
 		</div>
 		</form>
 	</div><!-- /content -->
