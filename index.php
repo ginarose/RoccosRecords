@@ -29,16 +29,16 @@
 
 		<div data-role="navbar" data-iconpos="top">
 		<ul>
-			<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
-			<li><a href="#gallery" data-icon="grid">Gallery</a></li>
-			<li><a href="#specials" data-icon="calendar">Specials</a></li>
+			<li><a href="#home" data-transition="flip" data-icon="home" class="ui-btn-active">Home</a></li>
+			<li><a href="#gallery" data-transition="flip" data-icon="grid">Gallery</a></li>
+			<li><a href="#specials" data-transition="flip" data-icon="calendar">Specials</a></li>
 		</ul>
 		</div><!-- /navbar -->
 
 	<div data-role="content">	
 		<div data-role="collapsible" data-collapsed="false">
 		    <h4>Welcome to Rocco's Records!</h4>
-		    	<p>Here at Rocco's we spin nothing but the latest and greatest (and okay, maybe some old jams too) and have the lowest prices in town. We pride ourself on customer service and fair prices. Since our records fly off the shelves, we don't have an online catalog, but feel free to contact us to ask about your favorite album and check if it's in stock.</p>
+		    	<p>Here at Rocco's we spin nothing but the latest and greatest (and okay, maybe some old jams too) and have the lowest prices in town. We pride ourself on customer service and fair prices. Not only are we a family owned and operated record store, but we host live events and talent shows, too!</p>
 		</div>	
 
 		<div data-role="collapsible">
@@ -52,7 +52,7 @@
 		    <h4>Contact Us</h4>
 		    <img src="assets/gallery/2.jpg" class="content-image">
 		    	<p><a href="tel:555 555 5555" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">(555) 555-5555</a>
-		    		<a href="http://maps.google.com?q=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-grid-a ui-btn ui-icon-delete ui-btn-icon-left ui-icon-location">123 East Manhattan St.<br>Orlando, FL 31587</a></p>	
+		    		<a href="http://maps.google.com?q=Manhattan%20Village%20Ave%20Orlando%20FL%2032835" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-grid-a ui-btn ui-icon-delete ui-btn-icon-left ui-icon-location">123 East Manhattan St.<br>Orlando, FL 31587</a></p>	
 				<p>Due to the high turnover rate with our used records, we don't have an online listing. Feel free to call us or stop in to see if we have the music you love, or ask one of us to share our favorites (we love to do that)!</p>
 		</div>
 	</div><!-- /content -->
@@ -73,9 +73,9 @@
 
 	<div data-role="navbar" data-iconpos="top">
 	<ul>
-		<li><a href="#home" data-icon="home" >Home</a></li>
-		<li><a href="#gallery" data-icon="grid" class="ui-btn-active">Gallery</a></li>
-		<li><a href="#specials" data-icon="calendar">Specials</a></li>
+		<li><a href="#home" data-transition="flip" data-icon="home" >Home</a></li>
+		<li><a href="#gallery" data-transition="flip" data-icon="grid" class="ui-btn-active">Gallery</a></li>
+		<li><a href="#specials" data-transition="flip" data-icon="calendar">Specials</a></li>
 	</ul>
 	</div><!-- /navbar -->
 
@@ -109,9 +109,9 @@
 
 	<div data-role="navbar" data-iconpos="top">
 	<ul>
-		<li><a href="#home" data-icon="home" >Home</a></li>
-		<li><a href="#gallery" data-icon="grid" >Gallery</a></li>
-		<li><a href="#specials" data-icon="calendar" class="ui-btn-active">Specials</a></li>
+		<li><a href="#home" data-transition="flip" data-icon="home" >Home</a></li>
+		<li><a href="#gallery" data-transition="flip" data-icon="grid" >Gallery</a></li>
+		<li><a href="#specials" data-transition="flip" data-icon="calendar" class="ui-btn-active">Specials</a></li>
 	</ul>
 	</div><!-- /navbar -->
 
