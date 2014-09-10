@@ -48,3 +48,12 @@ select{
 	display: block !important;
 	width: 100% !important;
 }
+
+.ui-select{
+width: 100% !important;
+}
+
+.content-image{
+	width: 100%;
+	border-radius: 5px;
+}

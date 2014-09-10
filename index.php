@@ -50,9 +50,10 @@
 
 		<div data-role="collapsible" data-collapsed="false">
 		    <h4>Contact Us</h4>
-		    	<p><a href="tel:555 555 5555" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">Call Us! 555-5555</a>
-		    		<a href="http://maps.google.com?q=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-grid-a ui-btn ui-icon-delete ui-btn-icon-left ui-icon-location">Visit Us!</a></p>	
-				<p>Today, Rocco not only manages the "Live Jive Corner," a section of Rocco's Records where bands still come to play their melodies, but he has successfully offered a consignment system for records.</p>
+		    <img src="assets/gallery/2.jpg" class="content-image">
+		    	<p><a href="tel:555 555 5555" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-btn ui-icon-delete ui-btn-icon-left ui-icon-phone">(555) 555-5555</a>
+		    		<a href="http://maps.google.com?q=894%20Granville%20Street%20Vancouver%20BC%20V6Z%201K3" data-role="button" data-inline="true" class="ui-corner-all ui-btn-b ui-mini ui-grid-a ui-btn ui-icon-delete ui-btn-icon-left ui-icon-location">123 East Manhattan St.<br>Orlando, FL 31587</a></p>	
+				<p>Due to the high turnover rate with our used records, we don't have an online listing. Feel free to call us or stop in to see if we have the music you love, or ask one of us to share our favorites (we love to do that)!</p>
 		</div>
 	</div><!-- /content -->
 
@@ -123,7 +124,7 @@
 		<div class="ui-field-contain">
 		    <label for="select-weekly-special" style="display:none;">Select a day of the week</label>
 		    <select name="select-weekly-special" data-native-menu="false" id="select-weekly-special">
-		        <option value="none">Select a different day to view specials...</option>
+		        <option value="none" data-placeholder="true">Different day on your mind?</option>
 		        <option value="monday">Monday</option>
 		        <option value="tuesday">Tuesday</option>
 		        <option value="wednesday">Wednesday</option>
