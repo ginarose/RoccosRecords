@@ -8,10 +8,18 @@
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 <script src="assets/script.js"></script>
-<script src="swipebox/lib/jquery-2.0.3.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 <script src="swipebox/src/js/jquery.swipebox.js"></script>
 <link rel="stylesheet" href="swipebox/src/css/swipebox.css">
 <link rel="stylesheet" href="assets/css/styling.css" />
+
+<link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+<script src="https://rawgithub.com/jquery/jquery-ui/1-10-stable/ui/jquery.ui.datepicker.js"></script>
+<script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script> 
+<script src="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.js"></script>
  
 	<meta charset="UTF-8">
 	<title>Rocco's Records</title>
@@ -37,8 +45,6 @@
 		    <h4>Welcome to Rocco's Records!</h4>
 		    	<p>Here at Rocco's we spin nothing but the latest and greatest (and okay, maybe some old jams too) and have the lowest prices in town. We pride ourself on customer service and fair prices. Since our records fly off the shelves, we don't have an online catalog, but feel free to contact us to ask about your favorite album and check if it's in stock.</p>
 		</div>	
-
-		<div id="map-canvas"></div>
 
 		<div data-role="collapsible">
 		    <h4>The History of Rocco's</h4>
@@ -114,8 +120,9 @@
 	<div data-role="content">	
 		<h2>Shows this month include...</h2>
 		<p style="text-align: center;">
-			CALENDAR HERE WAHOOOOO
+			<input type="text" id="date-input" data-theme="a" data-inline="true" data-role="date">
 		</p>
+		<p id="date-artist">Artist will show</p>
 	</div><!-- /content -->
 
 	<div data-role="footer">

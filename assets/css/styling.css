@@ -37,3 +37,9 @@ margin: 2%;
 	width: 50% !important;
 	margin: 5vh 5% !important;
 }
+
+div.hasDatePicker{
+	margin: 20px auto !important;
+}
+
+#map-page, #map-canvas { width: 100%; height: 100%; padding: 0; }
